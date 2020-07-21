@@ -435,6 +435,8 @@ aside {
       width: 100%;
     }
 
+
+
     /* ==========================================================================
      About Page
      ========================================================================== */
@@ -479,8 +481,46 @@ aside {
 
 
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1200px){
     /*desktop styles here*/
+
+/*--------- Desktop Homepage-------*/
+  .content-wrapper {
+    max-width: 960px;
+  }
+  .hero-area h1 {
+      width: 60%;
+  }
+  /*-------Aside-------*/
+  aside .content-wrapper{
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+  /* features */
+  .features h2 {
+    width: 90%;
+  }
+  .reviews article {
+    flex-basis: 33%;
+  }
+
+  .reviews article div {
+    width: 42%;
+  }
+  /*-----About pae-----*/
+  
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%
+  }
+  /*---------FAQ--------*/
+  .faq h2 {
+    width: 100%
+  }
 
 /* ==========================================================================
    Print styles.
